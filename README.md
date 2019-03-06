@@ -14,21 +14,21 @@
 
 [中文版README](https://doc.qima-inc.com/pages/editpage.action?pageId=12597462)
 
-##What is Bifrost(/ˈbɪvrɒst/)
+## What is Bifrost(/ˈbɪvrɒst/)
 The Bifrost is a delightful library for App Business Modular Architecture. 
 The name comes from the Myth of North Europe and the famous Marvel movie Thor. Bifrost is a rainbow bridge, by which People can reach anywhere in a moment.  
 
-##Some Terms 
+## Some Terms 
 Firstly let's sync some terms we will use later.
-###Business Module vs Function Module
+### Business Module vs Function Module
 Usually, we call a library for non-business functions **Function Module**, like AFN, SDWebImage, Masonry, ... They can be used across all kinds of apps and they have lot's of APIs. App needs to import their API declaration and invoke their API directly. And the **Business Module** contains lot's of business code, like the Goods Module, Trade Module, ... They can only be used in limited number of apps(sometimes only 1), and they only export a few of APIs or router urls because business module can't import any API declaration from other business modules.
 
-###Code Dependency vs Business Dependency
+### Code Dependency vs Business Dependency
 The Code dependency means the dependency on code. If A module has code dependency on B module, A imports some API declarations from B. In other words, A module can't be built successfully without B module's code.
 The Business Dependency means the business requirement on other modules. For example, if the Trade module needs to show a goods details page, it has business dependency on Goods module.
 The Code dependency can be removed by Business Modular Architecture, but the business dependency always exists.
 
-##Business Modular Architecture (BMA)
+## Business Modular Architecture (BMA)
 As an app becomes more and more complex, there will be quite a lot of dependencies between different business modules. One file is changed, so many files are affected. The development efficiency is affected. The purpose of BMAD is to remove all code dependency between different modules, so that our coding can be more efficient.
 *NOTE: Not all projects needs BMA. A precondition should be that the project's business domains won't change too frequently. In other words, the app should be able to be divided to some stable modules first, then we can use BMA on it.*
 
@@ -38,15 +38,15 @@ And if with BMA, it's module dependency relationship will be
 ![Demo Arch without BMA](Resource/arch-with-bma.png)
 You can see, all business module won't have code dependency on each other. They only dependent on Common and Mediator module. Like the Sale module don't know the Goods module. It asks goods info from the Mediator. If Goods module registers itself on Mediator, Sale module can get goods info, if not, Sale module can't get goods info, but the Sale module still can be built successfully. In other words, the API error of Goods module won't affect the development of Sale module. 
 
-##Usage
+## Usage
 The Bifrost removes dependencies between different modules by 2 ways: **Router URLs** and **Remote APIs**. 
 The Router URLs are often used to go to other UI pages. And the Remote APIs are used for non-UI actions or complex data delivery.
-###Installation
+### Installation
 It's recommended to use CocoaPods to install the Bifrost lib. Like this:
 ```
 pod 'Bifrost'
 ```
-###Router URL
+### Router URL
 Bifrost can bind a url string with a block. Simply, we can do the bind in the +load method.
 ```objective-c
 //In GoodsDetailsViewController.m
@@ -88,7 +88,7 @@ If a complex parameter which can't be put in the router url, like an image objec
               completion:(nullable BifrostRouteCompletion)completion;
 ```
 The *completion* parameter in above method is used to do callback of the router url. It will be put in the *parameters* with the key *kBifrostRouteCompletion*
-###Remote API
+### Remote API
 Also router url can meets most of the requirement, including those with  complex parameters, but it's not convenient. So we still need to use remote api to do method invocation directly. 
 Like the Goods module provide following service:
 ```objective-c
@@ -130,8 +130,8 @@ Then wen can invoke those API in *GoodsModuleService* like this:
 }
  ```
  
-##What's More
-###The Architecture of The Whole Project
+## What's More
+### The Architecture of The Whole Project
 The BMA lib (Bifrost) is only a small part of the Business Modular Arch. More work is to refactor the project‘s architecture to conform the BMA requirement: Different business modules can't have code dependency on each others. 
 The following arch used in the demo project is suggested:
 ![BMA in Demo](Resource/demo-arch.png)
@@ -139,7 +139,7 @@ There are 3 parts in the App: **Business Modules**, **Common Module** and **Medi
 Each Business module has 2 targets : static lib for code, and a bundle for resource. Business module put all its public API and router URLs in a **ModuleService** file. This ModuleService is put in the **Mediator** project, so that other business module can see these declarations. 
 The business module provides implementation for its ModuleService.
 You can find more details in the demo project.
-###Performance
+### Performance
 You may worry about the launch performance because we put quite a lot register code in the +load method. In fact the code for Bifrost in +load method is quite simple.
 I did a test to register 10000 router urls and 100 modules. It only cost 60ms.
 ```
@@ -160,5 +160,5 @@ Total pre-main time: 366.12 milliseconds (100.0%)
 ```
 If you still want to save the 60ms, you can try to put the binding code to some places after app launching.
 
-###Why do We Need Router URL?
+### Why do We Need Router URL?
 It seems the Remote API is more powerful than router url. Why not only to use remote api? Like Ali's Beehive lib only provides the support for remote API. The main reason is that sometimes we need a way also can be used in other platform, like h5 page and android. And it's very convenient to use URL to go to another page. So Bifrost also supports router URLs.
