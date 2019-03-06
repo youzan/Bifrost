@@ -1,0 +1,28 @@
+PODS:
+  - Bifrost (1.0.3)
+  - SigmaTableViewModel (1.2.1)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - Bifrost (from `../`)
+  - SigmaTableViewModel
+  - YYModel
+
+SPEC REPOS:
+  http://gitlab.qima-inc.com/AppLib/CocoaPodsSpecs.git:
+    - YYModel
+  http://gitlab.qima-inc.com/AppLib/RenRenPodspecs.git:
+    - SigmaTableViewModel
+
+EXTERNAL SOURCES:
+  Bifrost:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Bifrost: 20eddac040acd033fc55172f774708a882863240
+  SigmaTableViewModel: 0fab448014024fc788b8451758ff77c3979a665e
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: a931ffe0e7e431130da17cf723d80a7c8a665fd8
+
+COCOAPODS: 1.5.3

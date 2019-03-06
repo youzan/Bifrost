@@ -1,0 +1,21 @@
+{
+  "name": "Bifrost",
+  "version": "1.0.3",
+  "summary": "Bifrost",
+  "description": "URL router and module management framework.",
+  "homepage": "http://gitlab.qima-inc.com/AppLib/BifrostIOS/wikis/home",
+  "license": "MIT",
+  "authors": {
+    "JackieYang": "yangke@youzan.com"
+  },
+  "source": {
+    "git": "http://gitlab.qima-inc.com/AppLib/BifrostIOS.git",
+    "tag": "1.0.3"
+  },
+  "source_files": "Bifrost/Lib/*.{h,m}",
+  "frameworks": "UIKit",
+  "requires_arc": true,
+  "platforms": {
+    "ios": "7.0"
+  }
+}

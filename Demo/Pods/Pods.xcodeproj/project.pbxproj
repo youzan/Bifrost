@@ -1,0 +1,1163 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CF15910ADE5820996F94B0F1FA0D2A /* SigmaTableViewModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AE3C2BF944488B040AC01AE883DC99 /* SigmaTableViewModel-dummy.m */; };
+		05969FD809259E22CA586EA62ABA6BE9 /* YZSTableViewSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 827237772E6DD528A1E42F21433FBFF6 /* YZSTableViewSectionModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		11546B5D4D2B8F4A95317E9CB3BBD5E6 /* YZSTableViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C4630BD452B3AF6A44D40F1FA3DE8A /* YZSTableViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		16801FC589501624ED1E22AF8F0A5EEF /* Bifrost.h in Headers */ = {isa = PBXBuildFile; fileRef = 952AD161E094B5A5F5BABB456DCEEEE3 /* Bifrost.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		331115ECB125358C917DA55B92F8DB4B /* Bifrost-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49470DFDB38DDA4ABADB8F311EC00BC3 /* Bifrost-dummy.m */; };
+		3E503172601BE134E316FF1A9814C86C /* YZSTableViewCellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 881C18F300482D92D1E70F9192FC11C6 /* YZSTableViewCellModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3F148A06AAA7391515B564A9AA390FE1 /* BifrostHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7B43D3B5BB97BFEAC19C35E14C2772 /* BifrostHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47BB04B74DFF55D6B9BBBC4818E8120A /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6582E21C4B47D18AEBA9C6A10E3246D /* NSObject+YYModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		53FAB67AA3CE2B4887A1017B4AE53119 /* Bifrost.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD06D8481EF32FA3F9389100BF5D472 /* Bifrost.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6A1D7A45E186397394F1790D21F3D622 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 866D300E6A9FB33B2C0E4B6C6EC5FEC9 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		738D74D45FB1787AE3DF3833AB74C1EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C84665301CB17F94FE6E1635AF82DF4 /* UIKit.framework */; };
+		848A3C557A0448ED7C50C9F963F5890D /* Bifrost+Router.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B597186091AA34EC8B45969A90C77DA /* Bifrost+Router.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A1662841DC912849381BE0A25F24B10 /* Bifrost+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 439224AF55926A71F2C3C6DEEB9823C1 /* Bifrost+Router.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8C9BA118AB2E8C38CB3286DE95607EEC /* YZSTableViewSectionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 540ACD15B6A5AFBE1C4BDC5C8FF0A103 /* YZSTableViewSectionModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		915CE9597C0894E99024549CB085E372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969FF8497C7AF210FAE1636B46DE165F /* Foundation.framework */; };
+		B0D76185BC8052583BA16A5857B99DED /* BifrostProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 501B9F0472753E8AB5884D62C67569BD /* BifrostProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B4EEB009B13D5B044D303E715267F150 /* Pods-BifrostDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 002820455791303F0EBB239C5C955756 /* Pods-BifrostDemo-dummy.m */; };
+		B7154C95D2DB709BF8EE02A11C23CD40 /* Pods-BifrostDemo-Mediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAE5E71BAC7788CD135C52FD5A27D8E /* Pods-BifrostDemo-Mediator-dummy.m */; };
+		C4B5551B22A891DB85D39FB82EA280E6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC341C0E1D569DEB7E61DDC714CD191F /* CoreFoundation.framework */; };
+		C83785A65680281E9F9056CF62EBA1BF /* YZSTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D088370B0074D41A6F7088263B8C3C /* YZSTableViewCellModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D5492738165968AE3BE28BE4A5890EAF /* Pods-BifrostDemo-Common-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE46673840DAA579C4DA51EE6B5E6851 /* Pods-BifrostDemo-Common-dummy.m */; };
+		D9B11C78947E4FD23CC7FA837E63B789 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 98A67CDB182502C2E5A01FBC9AD5F5A5 /* YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DCF5621EFF32FE19EC1A8B929C44FF4D /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 52E6B3E00AB78D9C43F7AA5DE408CE28 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC628CEC0998D38501D36BA8B71F3512 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1965A92BF728C15B3A7818B4D7B0227E /* YYClassInfo.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F23103FAF85A6E326724CA93B5933FAB /* YZSTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA74FB585E0CC5B72E0D81995BF2D4D2 /* YZSTableViewModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F57F296714BFA6AE4B07414E3D474C13 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9A79D86B524472BC414D622BCC738C /* YYModel-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		594EA6EC1E828A8EE9779F280045AD97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA8B017B6B351A15F977E45D8FA12E4;
+			remoteInfo = YYModel;
+		};
+		7E61BC5E4F6EA35549A37860DF8A8AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA8B017B6B351A15F977E45D8FA12E4;
+			remoteInfo = YYModel;
+		};
+		AB79AB8F0DB69AB1EB9B7E1A09497404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4179CE2FF91628983BC39DEA065688;
+			remoteInfo = Bifrost;
+		};
+		C579FD5676228E8E76B67A408DF88DCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4179CE2FF91628983BC39DEA065688;
+			remoteInfo = Bifrost;
+		};
+		CC8019B5C5596963F119BF06DDD41983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FA5049BDF21EBDAF5F41648908002F0;
+			remoteInfo = SigmaTableViewModel;
+		};
+		E52131B1FECC3A88BC8B362452570CE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FA5049BDF21EBDAF5F41648908002F0;
+			remoteInfo = SigmaTableViewModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002820455791303F0EBB239C5C955756 /* Pods-BifrostDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BifrostDemo-dummy.m"; sourceTree = "<group>"; };
+		05324A4B62BE3D312CC2ED719C70F893 /* Pods-BifrostDemo-Mediator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BifrostDemo-Mediator-resources.sh"; sourceTree = "<group>"; };
+		06C5C115D0762D278917D750147516FC /* Pods-BifrostDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BifrostDemo-resources.sh"; sourceTree = "<group>"; };
+		0A731A8677962DE7DA883A5ED5187548 /* Bifrost-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bifrost-prefix.pch"; sourceTree = "<group>"; };
+		1965A92BF728C15B3A7818B4D7B0227E /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
+		21940CBE98D4A1497EA86077D92CBA59 /* libPods-BifrostDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BifrostDemo.a"; path = "libPods-BifrostDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24832F254B528F8D92F7FF803A4AA4CF /* libSigmaTableViewModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSigmaTableViewModel.a; path = libSigmaTableViewModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		24895614492B247A53335135C5AE3E23 /* Pods-BifrostDemo-Common-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BifrostDemo-Common-resources.sh"; sourceTree = "<group>"; };
+		2B597186091AA34EC8B45969A90C77DA /* Bifrost+Router.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Bifrost+Router.h"; path = "Bifrost/Lib/Bifrost+Router.h"; sourceTree = "<group>"; };
+		2C84665301CB17F94FE6E1635AF82DF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		32CE5AEAE648090046EF2E201DEE23E4 /* Pods-BifrostDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BifrostDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		342F33ED9535E6FDBEA4EDA482C2E76D /* Pods-BifrostDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BifrostDemo-frameworks.sh"; sourceTree = "<group>"; };
+		439224AF55926A71F2C3C6DEEB9823C1 /* Bifrost+Router.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Bifrost+Router.m"; path = "Bifrost/Lib/Bifrost+Router.m"; sourceTree = "<group>"; };
+		459344A4A8F19386B61C368DED119597 /* Pods-BifrostDemo-Mediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BifrostDemo-Mediator.release.xcconfig"; sourceTree = "<group>"; };
+		45EAA886CCDDFDDDE05E81ED1DB64189 /* Bifrost.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Bifrost.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		49470DFDB38DDA4ABADB8F311EC00BC3 /* Bifrost-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bifrost-dummy.m"; sourceTree = "<group>"; };
+		501B9F0472753E8AB5884D62C67569BD /* BifrostProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BifrostProtocol.h; path = Bifrost/Lib/BifrostProtocol.h; sourceTree = "<group>"; };
+		52E6B3E00AB78D9C43F7AA5DE408CE28 /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
+		540ACD15B6A5AFBE1C4BDC5C8FF0A103 /* YZSTableViewSectionModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZSTableViewSectionModel.h; path = Lib/YZSTableViewSectionModel.h; sourceTree = "<group>"; };
+		5B7B43D3B5BB97BFEAC19C35E14C2772 /* BifrostHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BifrostHeader.h; path = Bifrost/Lib/BifrostHeader.h; sourceTree = "<group>"; };
+		60BBA9F5A898AB3C8A3DC6821E789AE8 /* Pods-BifrostDemo-Mediator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BifrostDemo-Mediator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6DCA06C134435DA1F546447B21A7738D /* Pods-BifrostDemo-Common-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BifrostDemo-Common-acknowledgements.plist"; sourceTree = "<group>"; };
+		7CAE5E71BAC7788CD135C52FD5A27D8E /* Pods-BifrostDemo-Mediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BifrostDemo-Mediator-dummy.m"; sourceTree = "<group>"; };
+		809312BB00B225DC9517223D3B01B2FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		81200C875628C98FCDB7AF2EB431E4B1 /* libBifrost.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBifrost.a; path = libBifrost.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		827237772E6DD528A1E42F21433FBFF6 /* YZSTableViewSectionModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YZSTableViewSectionModel.m; path = Lib/YZSTableViewSectionModel.m; sourceTree = "<group>"; };
+		866D300E6A9FB33B2C0E4B6C6EC5FEC9 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
+		881C18F300482D92D1E70F9192FC11C6 /* YZSTableViewCellModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZSTableViewCellModel.h; path = Lib/YZSTableViewCellModel.h; sourceTree = "<group>"; };
+		8929F030296CE316AA79EA254D6A2827 /* YYModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9522F2566180FD075182244653B9A7C6 /* Pods-BifrostDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BifrostDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		952AD161E094B5A5F5BABB456DCEEEE3 /* Bifrost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bifrost.h; path = Bifrost/Lib/Bifrost.h; sourceTree = "<group>"; };
+		969FF8497C7AF210FAE1636B46DE165F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		98A67CDB182502C2E5A01FBC9AD5F5A5 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
+		AB57BAEDFDB9A972EBFE330548FAF828 /* Bifrost.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bifrost.xcconfig; sourceTree = "<group>"; };
+		AC341C0E1D569DEB7E61DDC714CD191F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		B2849B0E5445B5ADFA149CB2A806B634 /* Pods-BifrostDemo-Mediator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BifrostDemo-Mediator-acknowledgements.plist"; sourceTree = "<group>"; };
+		B46405FEF4242A925F79078860568AED /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
+		B9D088370B0074D41A6F7088263B8C3C /* YZSTableViewCellModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YZSTableViewCellModel.m; path = Lib/YZSTableViewCellModel.m; sourceTree = "<group>"; };
+		BBD06D8481EF32FA3F9389100BF5D472 /* Bifrost.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Bifrost.m; path = Bifrost/Lib/Bifrost.m; sourceTree = "<group>"; };
+		BD1E212288A45A53278F2EDC8F1009B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C1653F0B21E66BB4B7E70677B24CD261 /* Pods-BifrostDemo-Common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BifrostDemo-Common.release.xcconfig"; sourceTree = "<group>"; };
+		C62CD93154EB4C607969B6E5E296F9B6 /* Pods-BifrostDemo-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BifrostDemo-Common.debug.xcconfig"; sourceTree = "<group>"; };
+		C6582E21C4B47D18AEBA9C6A10E3246D /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
+		CBBB7930E872AE8B5DF975B293478F17 /* Pods-BifrostDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BifrostDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE95C42E82CC903DA39CE89090AB9C6A /* Pods-BifrostDemo-Common-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BifrostDemo-Common-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1C4630BD452B3AF6A44D40F1FA3DE8A /* YZSTableViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YZSTableViewModel.h; path = Lib/YZSTableViewModel.h; sourceTree = "<group>"; };
+		D1EED1E173C87EC916B589DBC6D242D4 /* SigmaTableViewModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SigmaTableViewModel-prefix.pch"; sourceTree = "<group>"; };
+		D6DFE7BDA861E1C6FCF5A88852C5CF90 /* libPods-BifrostDemo-Common.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BifrostDemo-Common.a"; path = "libPods-BifrostDemo-Common.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9A79D86B524472BC414D622BCC738C /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
+		E0AE3C2BF944488B040AC01AE883DC99 /* SigmaTableViewModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SigmaTableViewModel-dummy.m"; sourceTree = "<group>"; };
+		E8FE9FD7A4CDE257FF23F3ED0F1942CF /* Pods-BifrostDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BifrostDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EA74FB585E0CC5B72E0D81995BF2D4D2 /* YZSTableViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YZSTableViewModel.m; path = Lib/YZSTableViewModel.m; sourceTree = "<group>"; };
+		EC615262C977C03C5E8925AF0C30EB14 /* SigmaTableViewModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SigmaTableViewModel.xcconfig; sourceTree = "<group>"; };
+		EC75965933BEB231012ED43CEBF4D7FC /* libPods-BifrostDemo-Mediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BifrostDemo-Mediator.a"; path = "libPods-BifrostDemo-Mediator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0FD8C344C4722DBBECD00ED2A548D20 /* libYYModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYModel.a; path = libYYModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B442113892628AB8BA831394947148 /* Pods-BifrostDemo-Mediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BifrostDemo-Mediator.debug.xcconfig"; sourceTree = "<group>"; };
+		FE46673840DAA579C4DA51EE6B5E6851 /* Pods-BifrostDemo-Common-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BifrostDemo-Common-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E57FF154827FF54A038FDAFF691B814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D17C32974086A7B050DF0AA98655BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738D74D45FB1787AE3DF3833AB74C1EA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88E017D8A2FCCB76AE64B30B757981EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B5551B22A891DB85D39FB82EA280E6 /* CoreFoundation.framework in Frameworks */,
+				915CE9597C0894E99024549CB085E372 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D13A168C06FFB1080379F9BB89C26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982E61A5C1534475312FF74A05DEECFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F479F16CA91E4EC962FF0576CB6AD06E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E45762E33516E6FDE7C3416442D6A17 /* Pods-BifrostDemo-Common */ = {
+			isa = PBXGroup;
+			children = (
+				CE95C42E82CC903DA39CE89090AB9C6A /* Pods-BifrostDemo-Common-acknowledgements.markdown */,
+				6DCA06C134435DA1F546447B21A7738D /* Pods-BifrostDemo-Common-acknowledgements.plist */,
+				FE46673840DAA579C4DA51EE6B5E6851 /* Pods-BifrostDemo-Common-dummy.m */,
+				24895614492B247A53335135C5AE3E23 /* Pods-BifrostDemo-Common-resources.sh */,
+				C62CD93154EB4C607969B6E5E296F9B6 /* Pods-BifrostDemo-Common.debug.xcconfig */,
+				C1653F0B21E66BB4B7E70677B24CD261 /* Pods-BifrostDemo-Common.release.xcconfig */,
+			);
+			name = "Pods-BifrostDemo-Common";
+			path = "Target Support Files/Pods-BifrostDemo-Common";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA6F809CEBC69420286D5F0682A88A78 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25F70EC0E63D14C49B0E04690D22DC03 /* SigmaTableViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				881C18F300482D92D1E70F9192FC11C6 /* YZSTableViewCellModel.h */,
+				B9D088370B0074D41A6F7088263B8C3C /* YZSTableViewCellModel.m */,
+				D1C4630BD452B3AF6A44D40F1FA3DE8A /* YZSTableViewModel.h */,
+				EA74FB585E0CC5B72E0D81995BF2D4D2 /* YZSTableViewModel.m */,
+				540ACD15B6A5AFBE1C4BDC5C8FF0A103 /* YZSTableViewSectionModel.h */,
+				827237772E6DD528A1E42F21433FBFF6 /* YZSTableViewSectionModel.m */,
+				B57AAAB0F97585532ABA02511783D51C /* Support Files */,
+			);
+			name = SigmaTableViewModel;
+			path = SigmaTableViewModel;
+			sourceTree = "<group>";
+		};
+		6B35370264D62F94160979D84D478093 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				45EAA886CCDDFDDDE05E81ED1DB64189 /* Bifrost.podspec */,
+				BD1E212288A45A53278F2EDC8F1009B6 /* LICENSE */,
+				809312BB00B225DC9517223D3B01B2FC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BAFB96B62578118FD369B66FC2CC5135 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				F730BF0DD223F973CC566D6008A0528B /* Pods */,
+				B6D1F94AF93F8DE76BB6AC14697876D8 /* Products */,
+				D0A9A262F7E3648B39F3E08835BE355B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82FB4996E525F9B98FADFCC4142C7F24 /* Pods-BifrostDemo-Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				60BBA9F5A898AB3C8A3DC6821E789AE8 /* Pods-BifrostDemo-Mediator-acknowledgements.markdown */,
+				B2849B0E5445B5ADFA149CB2A806B634 /* Pods-BifrostDemo-Mediator-acknowledgements.plist */,
+				7CAE5E71BAC7788CD135C52FD5A27D8E /* Pods-BifrostDemo-Mediator-dummy.m */,
+				05324A4B62BE3D312CC2ED719C70F893 /* Pods-BifrostDemo-Mediator-resources.sh */,
+				F9B442113892628AB8BA831394947148 /* Pods-BifrostDemo-Mediator.debug.xcconfig */,
+				459344A4A8F19386B61C368DED119597 /* Pods-BifrostDemo-Mediator.release.xcconfig */,
+			);
+			name = "Pods-BifrostDemo-Mediator";
+			path = "Target Support Files/Pods-BifrostDemo-Mediator";
+			sourceTree = "<group>";
+		};
+		850E518D9274261E4CA25F66CE228717 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB57BAEDFDB9A972EBFE330548FAF828 /* Bifrost.xcconfig */,
+				49470DFDB38DDA4ABADB8F311EC00BC3 /* Bifrost-dummy.m */,
+				0A731A8677962DE7DA883A5ED5187548 /* Bifrost-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Demo/Pods/Target Support Files/Bifrost";
+			sourceTree = "<group>";
+		};
+		B284F120B6BC6BA22B532D7F42BFAA60 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8929F030296CE316AA79EA254D6A2827 /* YYModel.xcconfig */,
+				DE9A79D86B524472BC414D622BCC738C /* YYModel-dummy.m */,
+				B46405FEF4242A925F79078860568AED /* YYModel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYModel";
+			sourceTree = "<group>";
+		};
+		B57AAAB0F97585532ABA02511783D51C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC615262C977C03C5E8925AF0C30EB14 /* SigmaTableViewModel.xcconfig */,
+				E0AE3C2BF944488B040AC01AE883DC99 /* SigmaTableViewModel-dummy.m */,
+				D1EED1E173C87EC916B589DBC6D242D4 /* SigmaTableViewModel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SigmaTableViewModel";
+			sourceTree = "<group>";
+		};
+		B6D1F94AF93F8DE76BB6AC14697876D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81200C875628C98FCDB7AF2EB431E4B1 /* libBifrost.a */,
+				21940CBE98D4A1497EA86077D92CBA59 /* libPods-BifrostDemo.a */,
+				D6DFE7BDA861E1C6FCF5A88852C5CF90 /* libPods-BifrostDemo-Common.a */,
+				EC75965933BEB231012ED43CEBF4D7FC /* libPods-BifrostDemo-Mediator.a */,
+				24832F254B528F8D92F7FF803A4AA4CF /* libSigmaTableViewModel.a */,
+				F0FD8C344C4722DBBECD00ED2A548D20 /* libYYModel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAFB96B62578118FD369B66FC2CC5135 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCFD039D2FB545F352D633BE8FC7BBA1 /* Bifrost */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CE8584533952F454939C01E32774B607 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				52E6B3E00AB78D9C43F7AA5DE408CE28 /* NSObject+YYModel.h */,
+				C6582E21C4B47D18AEBA9C6A10E3246D /* NSObject+YYModel.m */,
+				866D300E6A9FB33B2C0E4B6C6EC5FEC9 /* YYClassInfo.h */,
+				1965A92BF728C15B3A7818B4D7B0227E /* YYClassInfo.m */,
+				98A67CDB182502C2E5A01FBC9AD5F5A5 /* YYModel.h */,
+				B284F120B6BC6BA22B532D7F42BFAA60 /* Support Files */,
+			);
+			name = YYModel;
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		D0A9A262F7E3648B39F3E08835BE355B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAEFC3E21C14E6026E29EFFB996756AC /* Pods-BifrostDemo */,
+				0E45762E33516E6FDE7C3416442D6A17 /* Pods-BifrostDemo-Common */,
+				82FB4996E525F9B98FADFCC4142C7F24 /* Pods-BifrostDemo-Mediator */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DCFD039D2FB545F352D633BE8FC7BBA1 /* Bifrost */ = {
+			isa = PBXGroup;
+			children = (
+				952AD161E094B5A5F5BABB456DCEEEE3 /* Bifrost.h */,
+				BBD06D8481EF32FA3F9389100BF5D472 /* Bifrost.m */,
+				2B597186091AA34EC8B45969A90C77DA /* Bifrost+Router.h */,
+				439224AF55926A71F2C3C6DEEB9823C1 /* Bifrost+Router.m */,
+				5B7B43D3B5BB97BFEAC19C35E14C2772 /* BifrostHeader.h */,
+				501B9F0472753E8AB5884D62C67569BD /* BifrostProtocol.h */,
+				6B35370264D62F94160979D84D478093 /* Pod */,
+				850E518D9274261E4CA25F66CE228717 /* Support Files */,
+			);
+			name = Bifrost;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EA6F809CEBC69420286D5F0682A88A78 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AC341C0E1D569DEB7E61DDC714CD191F /* CoreFoundation.framework */,
+				969FF8497C7AF210FAE1636B46DE165F /* Foundation.framework */,
+				2C84665301CB17F94FE6E1635AF82DF4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F730BF0DD223F973CC566D6008A0528B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25F70EC0E63D14C49B0E04690D22DC03 /* SigmaTableViewModel */,
+				CE8584533952F454939C01E32774B607 /* YYModel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAEFC3E21C14E6026E29EFFB996756AC /* Pods-BifrostDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CBBB7930E872AE8B5DF975B293478F17 /* Pods-BifrostDemo-acknowledgements.markdown */,
+				32CE5AEAE648090046EF2E201DEE23E4 /* Pods-BifrostDemo-acknowledgements.plist */,
+				002820455791303F0EBB239C5C955756 /* Pods-BifrostDemo-dummy.m */,
+				342F33ED9535E6FDBEA4EDA482C2E76D /* Pods-BifrostDemo-frameworks.sh */,
+				06C5C115D0762D278917D750147516FC /* Pods-BifrostDemo-resources.sh */,
+				9522F2566180FD075182244653B9A7C6 /* Pods-BifrostDemo.debug.xcconfig */,
+				E8FE9FD7A4CDE257FF23F3ED0F1942CF /* Pods-BifrostDemo.release.xcconfig */,
+			);
+			name = "Pods-BifrostDemo";
+			path = "Target Support Files/Pods-BifrostDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1EDF18A1FF81627A99E4A9AA346A21AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84620CC628AE6127CA6425065028B1DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848A3C557A0448ED7C50C9F963F5890D /* Bifrost+Router.h in Headers */,
+				16801FC589501624ED1E22AF8F0A5EEF /* Bifrost.h in Headers */,
+				3F148A06AAA7391515B564A9AA390FE1 /* BifrostHeader.h in Headers */,
+				B0D76185BC8052583BA16A5857B99DED /* BifrostProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CA1924F15F3B0F44D900D156632245 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E503172601BE134E316FF1A9814C86C /* YZSTableViewCellModel.h in Headers */,
+				11546B5D4D2B8F4A95317E9CB3BBD5E6 /* YZSTableViewModel.h in Headers */,
+				8C9BA118AB2E8C38CB3286DE95607EEC /* YZSTableViewSectionModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F3B6AEFCE8F3B31A541C76D6C2CF26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF5621EFF32FE19EC1A8B929C44FF4D /* NSObject+YYModel.h in Headers */,
+				6A1D7A45E186397394F1790D21F3D622 /* YYClassInfo.h in Headers */,
+				D9B11C78947E4FD23CC7FA837E63B789 /* YYModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAA03B76821F40FD5C1B1B4270E251F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB942CE0DF17D0A56F41BA0091C08BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07FD9F29646A590FD41F095441BBEF5F /* Pods-BifrostDemo-Mediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B975B12CC47E08505B835EB5E42ACDC /* Build configuration list for PBXNativeTarget "Pods-BifrostDemo-Mediator" */;
+			buildPhases = (
+				1EDF18A1FF81627A99E4A9AA346A21AB /* Headers */,
+				DB058309BFEC7D75D93172231E6E94CF /* Sources */,
+				97D13A168C06FFB1080379F9BB89C26D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B2280135FA4E013B5498774F6CE0224 /* PBXTargetDependency */,
+			);
+			name = "Pods-BifrostDemo-Mediator";
+			productName = "Pods-BifrostDemo-Mediator";
+			productReference = EC75965933BEB231012ED43CEBF4D7FC /* libPods-BifrostDemo-Mediator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2FA5049BDF21EBDAF5F41648908002F0 /* SigmaTableViewModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539A9F68EB6AC56C93BD13BFC2405B77 /* Build configuration list for PBXNativeTarget "SigmaTableViewModel" */;
+			buildPhases = (
+				A6CA1924F15F3B0F44D900D156632245 /* Headers */,
+				52D817E347504BF7B0FD6AFBEF4595A6 /* Sources */,
+				F479F16CA91E4EC962FF0576CB6AD06E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SigmaTableViewModel;
+			productName = SigmaTableViewModel;
+			productReference = 24832F254B528F8D92F7FF803A4AA4CF /* libSigmaTableViewModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BFA8B017B6B351A15F977E45D8FA12E4 /* YYModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7D4B4EC67EB141B807D297DFC76A56 /* Build configuration list for PBXNativeTarget "YYModel" */;
+			buildPhases = (
+				C4F3B6AEFCE8F3B31A541C76D6C2CF26 /* Headers */,
+				B041342A2133E2BBEED79593ABD11017 /* Sources */,
+				88E017D8A2FCCB76AE64B30B757981EE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYModel;
+			productName = YYModel;
+			productReference = F0FD8C344C4722DBBECD00ED2A548D20 /* libYYModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D3FA0E1FF5C045CD210FA6F6E0DE047A /* Pods-BifrostDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2624FCCBC618E40E7766C33F67808E /* Build configuration list for PBXNativeTarget "Pods-BifrostDemo" */;
+			buildPhases = (
+				FDB942CE0DF17D0A56F41BA0091C08BF /* Headers */,
+				53207533B8847DFF5D65998AFA46D138 /* Sources */,
+				2E57FF154827FF54A038FDAFF691B814 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F55FCB10116EE343E9095634B683A5C /* PBXTargetDependency */,
+				A1EDB020E9A092DF0888711C6EFA68F2 /* PBXTargetDependency */,
+				59B34787B6E906E57107076139BA2248 /* PBXTargetDependency */,
+			);
+			name = "Pods-BifrostDemo";
+			productName = "Pods-BifrostDemo";
+			productReference = 21940CBE98D4A1497EA86077D92CBA59 /* libPods-BifrostDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DC4179CE2FF91628983BC39DEA065688 /* Bifrost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72B14C0B2F447A2BF13F8D59CCBB03B /* Build configuration list for PBXNativeTarget "Bifrost" */;
+			buildPhases = (
+				84620CC628AE6127CA6425065028B1DC /* Headers */,
+				2D062E2C241C51960AACA080DAB322DD /* Sources */,
+				62D17C32974086A7B050DF0AA98655BD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bifrost;
+			productName = Bifrost;
+			productReference = 81200C875628C98FCDB7AF2EB431E4B1 /* libBifrost.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E3AFC853BE3B7C858266FBD8B1D4F266 /* Pods-BifrostDemo-Common */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B08C9B9B31C8E7B8E4FA063774E92AC6 /* Build configuration list for PBXNativeTarget "Pods-BifrostDemo-Common" */;
+			buildPhases = (
+				EAAA03B76821F40FD5C1B1B4270E251F /* Headers */,
+				DF1AA1085E721DD64DF21B9E78684FCF /* Sources */,
+				982E61A5C1534475312FF74A05DEECFC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C82765EDBAFA821266EEC9E3594F06C /* PBXTargetDependency */,
+				13BD12C09EE2C837CCF082AC6550A584 /* PBXTargetDependency */,
+			);
+			name = "Pods-BifrostDemo-Common";
+			productName = "Pods-BifrostDemo-Common";
+			productReference = D6DFE7BDA861E1C6FCF5A88852C5CF90 /* libPods-BifrostDemo-Common.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B6D1F94AF93F8DE76BB6AC14697876D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC4179CE2FF91628983BC39DEA065688 /* Bifrost */,
+				D3FA0E1FF5C045CD210FA6F6E0DE047A /* Pods-BifrostDemo */,
+				E3AFC853BE3B7C858266FBD8B1D4F266 /* Pods-BifrostDemo-Common */,
+				07FD9F29646A590FD41F095441BBEF5F /* Pods-BifrostDemo-Mediator */,
+				2FA5049BDF21EBDAF5F41648908002F0 /* SigmaTableViewModel */,
+				BFA8B017B6B351A15F977E45D8FA12E4 /* YYModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D062E2C241C51960AACA080DAB322DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1662841DC912849381BE0A25F24B10 /* Bifrost+Router.m in Sources */,
+				331115ECB125358C917DA55B92F8DB4B /* Bifrost-dummy.m in Sources */,
+				53FAB67AA3CE2B4887A1017B4AE53119 /* Bifrost.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D817E347504BF7B0FD6AFBEF4595A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CF15910ADE5820996F94B0F1FA0D2A /* SigmaTableViewModel-dummy.m in Sources */,
+				C83785A65680281E9F9056CF62EBA1BF /* YZSTableViewCellModel.m in Sources */,
+				F23103FAF85A6E326724CA93B5933FAB /* YZSTableViewModel.m in Sources */,
+				05969FD809259E22CA586EA62ABA6BE9 /* YZSTableViewSectionModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53207533B8847DFF5D65998AFA46D138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EEB009B13D5B044D303E715267F150 /* Pods-BifrostDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B041342A2133E2BBEED79593ABD11017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BB04B74DFF55D6B9BBBC4818E8120A /* NSObject+YYModel.m in Sources */,
+				EC628CEC0998D38501D36BA8B71F3512 /* YYClassInfo.m in Sources */,
+				F57F296714BFA6AE4B07414E3D474C13 /* YYModel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB058309BFEC7D75D93172231E6E94CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7154C95D2DB709BF8EE02A11C23CD40 /* Pods-BifrostDemo-Mediator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1AA1085E721DD64DF21B9E78684FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5492738165968AE3BE28BE4A5890EAF /* Pods-BifrostDemo-Common-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F55FCB10116EE343E9095634B683A5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bifrost;
+			target = DC4179CE2FF91628983BC39DEA065688 /* Bifrost */;
+			targetProxy = AB79AB8F0DB69AB1EB9B7E1A09497404 /* PBXContainerItemProxy */;
+		};
+		13BD12C09EE2C837CCF082AC6550A584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = BFA8B017B6B351A15F977E45D8FA12E4 /* YYModel */;
+			targetProxy = 7E61BC5E4F6EA35549A37860DF8A8AC1 /* PBXContainerItemProxy */;
+		};
+		4B2280135FA4E013B5498774F6CE0224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bifrost;
+			target = DC4179CE2FF91628983BC39DEA065688 /* Bifrost */;
+			targetProxy = C579FD5676228E8E76B67A408DF88DCA /* PBXContainerItemProxy */;
+		};
+		59B34787B6E906E57107076139BA2248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = BFA8B017B6B351A15F977E45D8FA12E4 /* YYModel */;
+			targetProxy = 594EA6EC1E828A8EE9779F280045AD97 /* PBXContainerItemProxy */;
+		};
+		8C82765EDBAFA821266EEC9E3594F06C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SigmaTableViewModel;
+			target = 2FA5049BDF21EBDAF5F41648908002F0 /* SigmaTableViewModel */;
+			targetProxy = CC8019B5C5596963F119BF06DDD41983 /* PBXContainerItemProxy */;
+		};
+		A1EDB020E9A092DF0888711C6EFA68F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SigmaTableViewModel;
+			target = 2FA5049BDF21EBDAF5F41648908002F0 /* SigmaTableViewModel */;
+			targetProxy = E52131B1FECC3A88BC8B362452570CE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		288776739675C56D18584E65019F975F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9522F2566180FD075182244653B9A7C6 /* Pods-BifrostDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F490FF3DD01C675AD6E32097A012EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC615262C977C03C5E8925AF0C30EB14 /* SigmaTableViewModel.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SigmaTableViewModel/SigmaTableViewModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SigmaTableViewModel;
+				PRODUCT_NAME = SigmaTableViewModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B54A90AA6E0136C4B97C7C0173592EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C62CD93154EB4C607969B6E5E296F9B6 /* Pods-BifrostDemo-Common.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60DFA53F05F528311D2C9A4BE24DB384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC615262C977C03C5E8925AF0C30EB14 /* SigmaTableViewModel.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SigmaTableViewModel/SigmaTableViewModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SigmaTableViewModel;
+				PRODUCT_NAME = SigmaTableViewModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70019162BE12C865D3CFA7A99A87A8B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB57BAEDFDB9A972EBFE330548FAF828 /* Bifrost.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Bifrost/Bifrost-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Bifrost;
+				PRODUCT_NAME = Bifrost;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		718FA401AE881114A07675FBDEAD92BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1653F0B21E66BB4B7E70677B24CD261 /* Pods-BifrostDemo-Common.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E94E340404B1F9C670CB2FFC3B1439A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9B442113892628AB8BA831394947148 /* Pods-BifrostDemo-Mediator.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81417BCA5A28A8EE40D9A9BA352391B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8929F030296CE316AA79EA254D6A2827 /* YYModel.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FD5919B5C44C8E8211BB9FD4C5552DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB57BAEDFDB9A972EBFE330548FAF828 /* Bifrost.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Bifrost/Bifrost-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Bifrost;
+				PRODUCT_NAME = Bifrost;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A13DAD81A24E020BF5CF2C133F69C63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8FE9FD7A4CDE257FF23F3ED0F1942CF /* Pods-BifrostDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D056403404E56F25A6896E36C1ED895D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8929F030296CE316AA79EA254D6A2827 /* YYModel.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F0AB2B702BA55B8F5BADCD5291E2991A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459344A4A8F19386B61C368DED119597 /* Pods-BifrostDemo-Mediator.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B975B12CC47E08505B835EB5E42ACDC /* Build configuration list for PBXNativeTarget "Pods-BifrostDemo-Mediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E94E340404B1F9C670CB2FFC3B1439A /* Debug */,
+				F0AB2B702BA55B8F5BADCD5291E2991A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D2624FCCBC618E40E7766C33F67808E /* Build configuration list for PBXNativeTarget "Pods-BifrostDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288776739675C56D18584E65019F975F /* Debug */,
+				A13DAD81A24E020BF5CF2C133F69C63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
+				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539A9F68EB6AC56C93BD13BFC2405B77 /* Build configuration list for PBXNativeTarget "SigmaTableViewModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DFA53F05F528311D2C9A4BE24DB384 /* Debug */,
+				3F490FF3DD01C675AD6E32097A012EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D7D4B4EC67EB141B807D297DFC76A56 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81417BCA5A28A8EE40D9A9BA352391B5 /* Debug */,
+				D056403404E56F25A6896E36C1ED895D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B08C9B9B31C8E7B8E4FA063774E92AC6 /* Build configuration list for PBXNativeTarget "Pods-BifrostDemo-Common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B54A90AA6E0136C4B97C7C0173592EF /* Debug */,
+				718FA401AE881114A07675FBDEAD92BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D72B14C0B2F447A2BF13F8D59CCBB03B /* Build configuration list for PBXNativeTarget "Bifrost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70019162BE12C865D3CFA7A99A87A8B9 /* Debug */,
+				8FD5919B5C44C8E8211BB9FD4C5552DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

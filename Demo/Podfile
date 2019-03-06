@@ -1,0 +1,44 @@
+source 'http://gitlab.qima-inc.com/AppLib/RenRenPodspecs.git'
+source 'http://gitlab.qima-inc.com/AppLib/CocoaPodsSpecs.git'
+
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+platform :ios, '8.0'
+
+#disable some warnings
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            #disable some warnings of Pods
+            config.build_settings['CLANG_WARN_DOCUMENTATION_COMMENTS'] = 'NO'
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '8.0'
+        end
+    end
+end
+
+def commonPods()
+    #some 3rd party pods for demo
+    #    pod 'AFNetworking'
+    pod 'YYModel'
+    pod 'SigmaTableViewModel'
+end
+
+def mediatorPods()
+    pod 'Bifrost', :path => '../'
+end
+
+workspace "BifrostDemo"
+target "BifrostDemo" do
+    project 'App/App.xcodeproj'
+#    commonPods()
+#    mediatorPods()
+    target "Common" do
+        project 'Modules/Common/Common.xcodeproj'
+        commonPods()
+    end
+    target "Mediator" do
+        project 'Modules/Mediator/Mediator.xcodeproj'
+        mediatorPods()
+    end
+end
