@@ -1,8 +1,8 @@
-[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/youzan/SigmaTableViewModel/blob/master/LICENSE)&nbsp;
-[![CocoaPods](https://img.shields.io/badge/pod-v1.0.0-blue.svg)](http://cocoapods.org/?q=SigmaTableViewModel)&nbsp;
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/youzan/Bifrost/blob/master/LICENSE)&nbsp;
+[![CocoaPods](https://img.shields.io/badge/pod-v1.0.0-blue.svg)](http://cocoapods.org/?q=Bifrost)&nbsp;
 [![Platform](https://img.shields.io/badge/platform-ios-yellow.svg)](https://www.apple.com/nl/ios/)&nbsp;
 [![Support](https://img.shields.io/badge/support-iOS%206%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
-[![Build Status](https://travis-ci.org/youzan/SigmaTableViewModel.svg?branch=master)](https://travis-ci.org/youzan/SigmaTableViewModel)
+[![Build Status](https://travis-ci.org/youzan/Bifrost.svg?branch=master)](https://travis-ci.org/youzan/SigmaTableViewModel)
 
 <p>
 <a href="https://github.com/youzan/"><img alt="有赞logo" width="36px" src="https://img.yzcdn.cn/public_files/2017/02/09/e84aa8cbbf7852688c86218c1f3bbf17.png" alt="youzan">
