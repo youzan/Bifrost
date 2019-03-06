@@ -33,9 +33,11 @@ As an app becomes more and more complex, there will be quite a lot of dependenci
 *NOTE: Not all projects needs BMA. A precondition should be that the project's business domains won't change too frequently. In other words, the app should be able to be divided to some stable modules first, then we can use BMA on it.*
 
 Use the demo project as a sample. It contains 4 business modules: Home, Shop, Sale, Goods. Without BMA, it's module dependency relationship can be: 
-![Demo Arch without BMA](Resource/arch-without-bma.png)
+
+<img src="Resource/arch-without-bma.png" width="400">
 And if with BMA, it's module dependency relationship will be
-![Demo Arch without BMA](Resource/arch-with-bma.png)
+
+<img src="Resource/arch-with-bma.png" width="400">
 You can see, all business module won't have code dependency on each other. They only dependent on Common and Mediator module. Like the Sale module don't know the Goods module. It asks goods info from the Mediator. If Goods module registers itself on Mediator, Sale module can get goods info, if not, Sale module can't get goods info, but the Sale module still can be built successfully. In other words, the API error of Goods module won't affect the development of Sale module. 
 
 ## Usage
