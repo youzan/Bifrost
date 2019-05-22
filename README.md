@@ -151,13 +151,13 @@ Total pre-main time: 344.82 milliseconds (100.0%)
          dylib loading time: 171.59 milliseconds (49.7%)
         rebase/binding time:  36.06 milliseconds (10.4%)
             ObjC setup time: 102.27 milliseconds (29.6%)
-           **initializer time:  34.74 milliseconds (10.0%)**
+           initializer time:  34.74 milliseconds (10.0%)
 //With test code to register 10000 router urls and 100 modules
 Total pre-main time: 366.12 milliseconds (100.0%)
          dylib loading time: 179.28 milliseconds (48.9%)
         rebase/binding time:  29.32 milliseconds (8.0%)
             ObjC setup time:  63.77 milliseconds (17.4%)
-           **initializer time:  93.50 milliseconds (25.5%)**
+           initializer time:  93.50 milliseconds (25.5%)
 //Note: the +load method mainly affects the initializer time.
 ```
 In facts, One app may only contains 20-50 modules and 200-300 Routers. If you still want to save the time, you can try to put the binding code to some places after app launching.
