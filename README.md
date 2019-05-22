@@ -143,7 +143,7 @@ The business module provides implementation for its ModuleService.
 You can find more details in the demo project.
 ### Performance
 You may worry about the launch performance because we put quite a lot register code in the +load method. In fact the code for Bifrost in +load method is quite simple.
-I did a test to register 10000 router urls and 100 modules. It only cost 60ms.
+I did a test to register 10000 router urls and 100 modules. It only cost 20+ms.
 ```
 //Get App pre-main time by Xcode's DYLD_PRINT_STATISTICS settings
 //Without test code
@@ -160,7 +160,7 @@ Total pre-main time: 366.12 milliseconds (100.0%)
            initializer time:  93.50 milliseconds (25.5%)
 //Note: the +load method mainly affects the initializer time.
 ```
-If you still want to save the 60ms, you can try to put the binding code to some places after app launching.
+If you still want to save the 20ms, you can try to put the binding code to some places after app launching.
 
 ### Why do We Need Router URL?
 It seems the Remote API is more powerful than router url. Why not only to use remote api? Like Ali's Beehive lib only provides the support for remote API. The main reason is that sometimes we need a way also can be used in other platform, like h5 page and android. And it's very convenient to use URL to go to another page. So Bifrost also supports router URLs.
