@@ -143,7 +143,7 @@ The business module provides implementation for its ModuleService.
 You can find more details in the demo project.
 ### Performance
 You may worry about the launch performance because we put quite a lot register code in the +load method. In fact the code for Bifrost in +load method is quite simple.
-I did a test to register 10000 router urls and 100 modules. It only cost 20+ms.
+I did a test to register 10000 router urls and 100 modules. It only cost another 60 ms.
 ```
 //Get App pre-main time by Xcode's DYLD_PRINT_STATISTICS settings
 //Without test code
@@ -151,16 +151,16 @@ Total pre-main time: 344.82 milliseconds (100.0%)
          dylib loading time: 171.59 milliseconds (49.7%)
         rebase/binding time:  36.06 milliseconds (10.4%)
             ObjC setup time: 102.27 milliseconds (29.6%)
-           initializer time:  34.74 milliseconds (10.0%)
+           **initializer time:  34.74 milliseconds (10.0%)**
 //With test code to register 10000 router urls and 100 modules
 Total pre-main time: 366.12 milliseconds (100.0%)
          dylib loading time: 179.28 milliseconds (48.9%)
         rebase/binding time:  29.32 milliseconds (8.0%)
             ObjC setup time:  63.77 milliseconds (17.4%)
-           initializer time:  93.50 milliseconds (25.5%)
+           **initializer time:  93.50 milliseconds (25.5%)**
 //Note: the +load method mainly affects the initializer time.
 ```
-If you still want to save the 20ms, you can try to put the binding code to some places after app launching.
+In facts, One app may only contains 20-50 modules and 200-300 Routers. If you still want to save the time, you can try to put the binding code to some places after app launching.
 
 ### Why do We Need Router URL?
 It seems the Remote API is more powerful than router url. Why not only to use remote api? Like Ali's Beehive lib only provides the support for remote API. The main reason is that sometimes we need a way also can be used in other platform, like h5 page and android. And it's very convenient to use URL to go to another page. So Bifrost also supports router URLs.
