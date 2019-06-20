@@ -12,7 +12,7 @@
 </p>
 <p align="center">A delightful library for app business modular architecture.</p>
 
-[中文版README](https://doc.qima-inc.com/pages/editpage.action?pageId=12597462)
+[中文版README](https://tech.youzan.com/you-zan-ioszu-jian-hua-jia-gou-she-ji-shi-jian)
 
 ## What is Bifrost(/ˈbɪvrɒst/)
 The Bifrost is a delightful library for App Business Modular Architecture. 
